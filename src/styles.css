@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: lightslategray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2rem 2rem;
+    width: auto;
+    height: auto;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;;
+    font-size: 1rem;
+    background-color: burlywood;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem 2rem;
+    margin: auto;
+}
+
+img {
+    width: 50vw;
+    height: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
